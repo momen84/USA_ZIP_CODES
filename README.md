@@ -7,6 +7,7 @@ The script will do the following:
 2-Create a directory named 'JSONs' and download all the files to it.
 
 How to run:
-- cd to where you downloaded the file.
+
+- In terminal cd to where you downloaded the file.
 - chmod +x start.py
 - ./start.py
