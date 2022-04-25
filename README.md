@@ -1,5 +1,5 @@
 # USA_ZIP_CODES
-I used this script to download all GeoJSON data for all available USA ZIP codes in unitedstateszipcodes.org.
+I used this script to download all GeoJSON data for all available USA ZIP codes.
 The script is ready to work with python3.
 
 The script will do the following:
