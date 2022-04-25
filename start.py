@@ -189,25 +189,3 @@ def main():
 				pass
 		requestDelay()
 main()
-# print(renew_connection())
-# stateslinks=getStatesLinks()
-# alldata=[]
-# for x in stateslinks:
-# 	alldata.extend(getStateZIPcodes(x))
-# 	time.sleep(1.5)
-# tableHeaders=['ZIP Code','Type','Common Cities','County','Area Codes','ZIPURL','StateName','StateURL']
-# with open('allzipdatawithstate.csv','w') as zipdata:
-# 	csvwriter=csv.DictWriter(zipdata,fieldnames=tableHeaders)
-# 	csvwriter.writeheader()
-# 	for record in alldata:
-# 		csvwriter.writerow(record)
-
-
-# url='https://www.unitedstateszipcodes.org/35011'
-# print(url)
-# try:
-# 	geoJSON,boundsJSON=requestJSONs(url)
-# 	exportJSONs(url,geoJSON)
-# except TypeError:
-# 	print('ZIP code link {} does not has geoJSON data'.format(url))
-# 	pass
